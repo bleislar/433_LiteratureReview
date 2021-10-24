@@ -1,0 +1,10 @@
+Questions for Prof regarding Literature
+
+how to do 2D correlation on verilog? (3. Convolutional Neural Network)
+
+How to do element-wise multiplication (4.1)
+
+How do we do matrix transposes in verilog? (algorithm 1)
+
+Do they want us to compare FFT implementation and winograds? (4.4)
+
