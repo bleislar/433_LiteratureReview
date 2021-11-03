@@ -6,7 +6,12 @@ Download git bash
 	- just search "gitbash download" on google and its the first link
 
 
+
 HOW TO USE GIT FOR THIS PROJECT:
+
+The first time using git, copy the link from the big green "Code" button.
+find a directory that you want this project to be in then use the following:
+git clone https://github.com/ChrisAmaya/433_LiteratureReview.git
 
 every time you start to work on this project use:
 git pull

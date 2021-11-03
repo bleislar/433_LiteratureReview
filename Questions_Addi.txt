@@ -1,10 +1,22 @@
-Questions for Prof regarding Literature
+Questions about the Topic 4 Review:
 
-how to do 2D correlation on verilog? (3. Convolutional Neural Network)
 
-How to do element-wise multiplication (4.1)
+What does PE stand for?
 
-How do we do matrix transposes in verilog? (algorithm 1)
+What is the difference between an 8bit Booth Multipler and a approximate radix-4 8bit Booth multipler?
 
-Do they want us to compare FFT implementation and winograds? (4.4)
+What is the difference between an approximate half adder and a half adder?
+	Review figure 2 and 3 in the "Topic4.pdf"
+
+What is inference of DNNs mean?
+
+What do they mean by "input feature maps and filter weights are quantized to 8bit" mean?
+
+How do you exactly calculate the normalized mean Error distance?
+	Review equation 1 in the "Topic4.pdf"
+
+So we have to do calcualtions twice? one with approximate booth and one with exact?
+
+
+
 
