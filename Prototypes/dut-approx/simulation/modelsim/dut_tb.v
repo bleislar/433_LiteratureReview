@@ -32,7 +32,7 @@ module test_bench();
 
 	end
 	
-	booth_multiplier_8bit test_mult_1(
+	dut test_mult_1(
 		.X(X), .Y(Y), 
 			.P(P), .pp3(pp3), .pp2(pp2), .pp1(pp1), .pp0(pp0), // Partial Products
 				.decode_x(dec_x), // 9-bit
