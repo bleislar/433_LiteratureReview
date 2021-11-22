@@ -1,6 +1,6 @@
-Analysis & Synthesis Status : Failed - Thu Nov 11 17:09:38 2021
+Analysis & Synthesis Status : Failed - Mon Nov 22 12:11:58 2021
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-Revision Name : dut
+Revision Name : booth_8x8_radix_4_exact
 Top-level Entity Name : booth_8x8_radix_4_exact
 Family : Cyclone IV E
 Total logic elements : N/A until Partition Merge
