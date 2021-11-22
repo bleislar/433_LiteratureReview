@@ -12,7 +12,7 @@ module booth_8x8_radix_4_exact #(parameter M=16) (
 	
 	genvar i, j;
 	
-	// clock inputs
+	//------------------clock inputs-------------------
 	reg [7:0] xs, ys;
 	always @ (posedge clk or posedge rst)
 		if (rst == 1'b1) begin
@@ -23,7 +23,7 @@ module booth_8x8_radix_4_exact #(parameter M=16) (
 			ys <= y;
 		end
 	
-	// radix-4 booth recoding
+	//-------------radix-4 booth recoding--------------
 	wire [N/2:0] zero;
 	wire [N/2-1:0] neg, two, cor;
 
@@ -32,33 +32,37 @@ module booth_8x8_radix_4_exact #(parameter M=16) (
 	assign zero[0] = ~ys[1] & ~ys[0];
 	assign cor[0] = neg[0];
 	
-	for (i=1; i < N/2; i=i+1) begin: gen_booth_encoding
-		assign neg[i] = ys[2*i+1] & ~(ys[2*i] & ys[2*i-1]);
-		assign two[i] = ~ys[2*i+1] & ys[2*i] & ys[2*i-1]| ys[2*i+1] & ~ys[2*i] & ~ys[2*i-1];
-		assign zero[i] = ys[2*i+1] & ys[2*i] & ys[2*i-1]| ~ys[2*i+1] & ~ys[2*i] & ~ys[2*i-1];
-		assign cor[i] = neg[i];
+	always@(posedge clk) begin
+		for (i=1; i < N/2; i=i+1) begin: gen_booth_encoding 
+			assign neg[i] = ys[2*i+1] & ~(ys[2*i] & ys[2*i-1]);
+			assign two[i] = ~ys[2*i+1] & ys[2*i] & ys[2*i-1]| ys[2*i+1] & ~ys[2*i] & ~ys[2*i-1];
+			assign zero[i] = ys[2*i+1] & ys[2*i] & ys[2*i-1]| ~ys[2*i+1] & ~ys[2*i] & ~ys[2*i-1];
+			assign cor[i] = neg[i];
+		end
 	end
 	
 	assign zero[N/2] = ~ys[N-1];
 	
-	// radix-4 booth partial product generation
+	//-----radix-4 booth partial product generation-----
 	wire [N:0] pp [0:N/2];
 
-	for (i=0; i < N/2; i=i+1) begin: gen_pp_i
-		ppg ppg_0(neg[i], two[i], zero[i], xs[0], 1'b0, pp[i][0]);
-		for (j=1; j < N; j=j+1) begin: gen_pp_j
-			ppg ppg_1(neg[i], two[i], zero[i], xs[j], xs[j-1], pp[i][j]);
+	always@(posedge clk) begin 
+		for (i=0; i < N/2; i=i+1) begin: gen_pp_i
+			ppg ppg_0(neg[i], two[i], zero[i], xs[0], 1'b0, pp[i][0]);
+			for (j=1; j < N; j=j+1) begin: gen_pp_j
+				ppg ppg_1(neg[i], two[i], zero[i], xs[j], xs[j-1], pp[i][j]);
+			end
+			ppg ppg_2(neg[i], two[i], zero[i], 1'b0, xs[N-1], pp[i][N]);
 		end
-		ppg ppg_2(neg[i], two[i], zero[i], 1'b0, xs[N-1], pp[i][N]);
 	end
 	
 	ppg ppg_3(1'b0, 1'b0, zero[N/2], xs[0], 1'b0, pp[N/2][0]);
-	for (j=1; j < N; j=j+1) begin: gen_pp4_js
-		ppg ppg_4(1'b0, 1'b0, zero[N/2], xs[j], xs[j-1], pp[N/2][j]);
+	always @(posedge clk) begin
+		for (j=1; j < N; j=j+1) begin: gen_pp4_js
+			ppg ppg_4(1'b0, 1'b0, zero[N/2], xs[j], xs[j-1], pp[N/2][j]);
+		end
+		ppg ppg_5(1'b0, 1'b0, zero[N/2], 1'b0, xs[N-1], pp[N/2][N]);
 	end
-	ppg ppg_5(1'b0, 1'b0, zero[N/2], 1'b0, xs[N-1], pp[N/2][N]);
-	
-	
 	// acumulate partial products
 	
 	// stage 1
