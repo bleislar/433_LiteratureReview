@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Nov 22 14:21:05 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : booth_8x8_radix_4_approx
+Top-level Entity Name : dut
+Family : Cyclone IV E
+Total logic elements : 161
+    Total combinational functions : 129
+    Dedicated logic registers : 45
+Total registers : 45
+Total pins : 34
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
