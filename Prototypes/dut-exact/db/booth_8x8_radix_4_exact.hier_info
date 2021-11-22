@@ -1,0 +1,1062 @@
+|dut
+clk => clk.IN1
+rst => rst.IN1
+x[0] => x_temp[0].DATAIN
+x[1] => x_temp[1].DATAIN
+x[2] => x_temp[2].DATAIN
+x[3] => x_temp[3].DATAIN
+x[4] => x_temp[4].DATAIN
+x[5] => x_temp[5].DATAIN
+x[6] => x_temp[6].DATAIN
+x[7] => x_temp[7].DATAIN
+y[0] => y_temp[0].DATAIN
+y[1] => y_temp[1].DATAIN
+y[2] => y_temp[2].DATAIN
+y[3] => y_temp[3].DATAIN
+y[4] => y_temp[4].DATAIN
+y[5] => y_temp[5].DATAIN
+y[6] => y_temp[6].DATAIN
+y[7] => y_temp[7].DATAIN
+p[0] <= p[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+p[1] <= p[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+p[2] <= p[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+p[3] <= p[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+p[4] <= p[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+p[5] <= p[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+p[6] <= p[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+p[7] <= p[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+p[8] <= p[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+p[9] <= p[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+p[10] <= p[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+p[11] <= p[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+p[12] <= p[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+p[13] <= p[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+p[14] <= p[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+p[15] <= p[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut
+x[0] => xs[0].DATAIN
+x[1] => xs[1].DATAIN
+x[2] => xs[2].DATAIN
+x[3] => xs[3].DATAIN
+x[4] => xs[4].DATAIN
+x[5] => xs[5].DATAIN
+x[6] => xs[6].DATAIN
+x[7] => xs[7].DATAIN
+y[0] => ys[0].DATAIN
+y[1] => ys[1].DATAIN
+y[2] => ys[2].DATAIN
+y[3] => ys[3].DATAIN
+y[4] => ys[4].DATAIN
+y[5] => ys[5].DATAIN
+y[6] => ys[6].DATAIN
+y[7] => ys[7].DATAIN
+p[0] <= HA:comp_32.port2
+p[1] <= HA:comp_33.port2
+p[2] <= FA:comp_34.port3
+p[3] <= FA:comp_35.port3
+p[4] <= FA:comp_36.port3
+p[5] <= FA:comp_37.port3
+p[6] <= FA:comp_38.port3
+p[7] <= FA:comp_39.port3
+p[8] <= FA:comp_40.port3
+p[9] <= FA:comp_41.port3
+p[10] <= FA:comp_42.port3
+p[11] <= FA:comp_43.port3
+p[12] <= FA:comp_44.port3
+p[13] <= FA:comp_45.port3
+p[14] <= FA:comp_46.port3
+p[15] <= FA:comp_47.port3
+clk[0] => ys[0].CLK
+clk[0] => ys[1].CLK
+clk[0] => ys[2].CLK
+clk[0] => ys[3].CLK
+clk[0] => ys[4].CLK
+clk[0] => ys[5].CLK
+clk[0] => ys[6].CLK
+clk[0] => ys[7].CLK
+clk[0] => xs[0].CLK
+clk[0] => xs[1].CLK
+clk[0] => xs[2].CLK
+clk[0] => xs[3].CLK
+clk[0] => xs[4].CLK
+clk[0] => xs[5].CLK
+clk[0] => xs[6].CLK
+clk[0] => xs[7].CLK
+rst[0] => ys[0].ACLR
+rst[0] => ys[1].ACLR
+rst[0] => ys[2].ACLR
+rst[0] => ys[3].ACLR
+rst[0] => ys[4].ACLR
+rst[0] => ys[5].ACLR
+rst[0] => ys[6].ACLR
+rst[0] => ys[7].ACLR
+rst[0] => xs[0].ACLR
+rst[0] => xs[1].ACLR
+rst[0] => xs[2].ACLR
+rst[0] => xs[3].ACLR
+rst[0] => xs[4].ACLR
+rst[0] => xs[5].ACLR
+rst[0] => xs[6].ACLR
+rst[0] => xs[7].ACLR
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[0].ppg_0
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[0].gen_pp_j[1].ppg_1
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[0].gen_pp_j[2].ppg_1
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[0].gen_pp_j[3].ppg_1
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[0].gen_pp_j[4].ppg_1
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[0].gen_pp_j[5].ppg_1
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[0].gen_pp_j[6].ppg_1
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[0].gen_pp_j[7].ppg_1
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[0].ppg_2
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[1].ppg_0
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[1].gen_pp_j[1].ppg_1
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[1].gen_pp_j[2].ppg_1
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[1].gen_pp_j[3].ppg_1
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[1].gen_pp_j[4].ppg_1
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[1].gen_pp_j[5].ppg_1
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[1].gen_pp_j[6].ppg_1
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[1].gen_pp_j[7].ppg_1
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[1].ppg_2
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[2].ppg_0
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[2].gen_pp_j[1].ppg_1
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[2].gen_pp_j[2].ppg_1
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[2].gen_pp_j[3].ppg_1
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[2].gen_pp_j[4].ppg_1
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[2].gen_pp_j[5].ppg_1
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[2].gen_pp_j[6].ppg_1
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[2].gen_pp_j[7].ppg_1
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[2].ppg_2
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[3].ppg_0
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[3].gen_pp_j[1].ppg_1
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[3].gen_pp_j[2].ppg_1
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[3].gen_pp_j[3].ppg_1
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[3].gen_pp_j[4].ppg_1
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[3].gen_pp_j[5].ppg_1
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[3].gen_pp_j[6].ppg_1
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[3].gen_pp_j[7].ppg_1
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp_i[3].ppg_2
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:ppg_3
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp4_js[1].ppg_4
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp4_js[2].ppg_4
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp4_js[3].ppg_4
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp4_js[4].ppg_4
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp4_js[5].ppg_4
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp4_js[6].ppg_4
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:gen_pp4_js[7].ppg_4
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|ppg:ppg_5
+neg => pp.IN1
+two => m.IN0
+two => m.IN0
+zero => pp.IN1
+x_j => m.IN1
+x_jm1 => m.IN1
+pp <= pp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|HA:comp_00
+a => xor0.IN0
+a => and0.IN0
+b => xor0.IN1
+b => and0.IN1
+sum <= xor0.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|HA:comp_01
+a => xor0.IN0
+a => and0.IN0
+b => xor0.IN1
+b => and0.IN1
+sum <= xor0.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_02
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_03
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_04
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_05
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|HA:comp_06
+a => xor0.IN0
+a => and0.IN0
+b => xor0.IN1
+b => and0.IN1
+sum <= xor0.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|HA:comp_07
+a => xor0.IN0
+a => and0.IN0
+b => xor0.IN1
+b => and0.IN1
+sum <= xor0.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|HA:comp_08
+a => xor0.IN0
+a => and0.IN0
+b => xor0.IN1
+b => and0.IN1
+sum <= xor0.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_09
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_10
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_11
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_12
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_13
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_14
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_15
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_16
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|HA:comp_17
+a => xor0.IN0
+a => and0.IN0
+b => xor0.IN1
+b => and0.IN1
+sum <= xor0.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|HA:comp_18
+a => xor0.IN0
+a => and0.IN0
+b => xor0.IN1
+b => and0.IN1
+sum <= xor0.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|HA:comp_19
+a => xor0.IN0
+a => and0.IN0
+b => xor0.IN1
+b => and0.IN1
+sum <= xor0.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_20
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_21
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_22
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_23
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_24
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_25
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_26
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_27
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_28
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_29
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_30
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_31
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|HA:comp_32
+a => xor0.IN0
+a => and0.IN0
+b => xor0.IN1
+b => and0.IN1
+sum <= xor0.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|HA:comp_33
+a => xor0.IN0
+a => and0.IN0
+b => xor0.IN1
+b => and0.IN1
+sum <= xor0.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_34
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_35
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_36
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_37
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_38
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_39
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_40
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_41
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_42
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_43
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_44
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_45
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_46
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_8x8_radix_4_exact:dut|FA:comp_47
+a => xor0.IN0
+a => and1.IN0
+b => xor0.IN1
+b => and1.IN1
+cin => xor1.IN1
+cin => and0.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+

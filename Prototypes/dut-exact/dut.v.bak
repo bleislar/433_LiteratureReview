@@ -1,0 +1,9 @@
+module dut #parameter M=16(
+	input clk,
+	input rst,
+	input reg [7:0] x,
+	input reg [7:0] y,
+	output reg [M-1:0] p
+	);
+
+endmodule

@@ -1,0 +1,9 @@
+C:/Users/chris/Dropbox/School/CME433/Literature/433_LiteratureReview/Prototypes/dut-approx/simulation/modelsim/dut.vo {1 {vlog -work work -stats=none C:/Users/chris/Dropbox/School/CME433/Literature/433_LiteratureReview/Prototypes/dut-approx/simulation/modelsim/dut.vo
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dut
+-- Compiling module hard_block
+
+Top level modules:
+	dut
+
+} {} {}}

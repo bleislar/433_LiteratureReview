@@ -1,0 +1,4032 @@
+|dut
+clk => Cout~reg0.CLK
+clk => g0[0]~reg0.CLK
+clk => g0[1]~reg0.CLK
+clk => g0[2]~reg0.CLK
+clk => g1[0]~reg0.CLK
+clk => g1[1]~reg0.CLK
+clk => g1[2]~reg0.CLK
+clk => g2[0]~reg0.CLK
+clk => g2[1]~reg0.CLK
+clk => g2[2]~reg0.CLK
+clk => g3[0]~reg0.CLK
+clk => g3[1]~reg0.CLK
+clk => g3[2]~reg0.CLK
+clk => decode_x[0]~reg0.CLK
+clk => decode_x[1]~reg0.CLK
+clk => decode_x[2]~reg0.CLK
+clk => decode_x[3]~reg0.CLK
+clk => decode_x[4]~reg0.CLK
+clk => decode_x[5]~reg0.CLK
+clk => decode_x[6]~reg0.CLK
+clk => decode_x[7]~reg0.CLK
+clk => decode_x[8]~reg0.CLK
+clk => pp0[0]~reg0.CLK
+clk => pp0[1]~reg0.CLK
+clk => pp0[2]~reg0.CLK
+clk => pp0[3]~reg0.CLK
+clk => pp0[4]~reg0.CLK
+clk => pp0[5]~reg0.CLK
+clk => pp0[6]~reg0.CLK
+clk => pp0[7]~reg0.CLK
+clk => pp0[8]~reg0.CLK
+clk => pp0[9]~reg0.CLK
+clk => pp0[10]~reg0.CLK
+clk => pp0[11]~reg0.CLK
+clk => pp0[12]~reg0.CLK
+clk => pp0[13]~reg0.CLK
+clk => pp0[14]~reg0.CLK
+clk => pp0[15]~reg0.CLK
+clk => pp1[0]~reg0.CLK
+clk => pp1[1]~reg0.CLK
+clk => pp1[2]~reg0.CLK
+clk => pp1[3]~reg0.CLK
+clk => pp1[4]~reg0.CLK
+clk => pp1[5]~reg0.CLK
+clk => pp1[6]~reg0.CLK
+clk => pp1[7]~reg0.CLK
+clk => pp1[8]~reg0.CLK
+clk => pp1[9]~reg0.CLK
+clk => pp1[10]~reg0.CLK
+clk => pp1[11]~reg0.CLK
+clk => pp1[12]~reg0.CLK
+clk => pp1[13]~reg0.CLK
+clk => pp1[14]~reg0.CLK
+clk => pp1[15]~reg0.CLK
+clk => pp2[0]~reg0.CLK
+clk => pp2[1]~reg0.CLK
+clk => pp2[2]~reg0.CLK
+clk => pp2[3]~reg0.CLK
+clk => pp2[4]~reg0.CLK
+clk => pp2[5]~reg0.CLK
+clk => pp2[6]~reg0.CLK
+clk => pp2[7]~reg0.CLK
+clk => pp2[8]~reg0.CLK
+clk => pp2[9]~reg0.CLK
+clk => pp2[10]~reg0.CLK
+clk => pp2[11]~reg0.CLK
+clk => pp2[12]~reg0.CLK
+clk => pp2[13]~reg0.CLK
+clk => pp2[14]~reg0.CLK
+clk => pp2[15]~reg0.CLK
+clk => pp3[0]~reg0.CLK
+clk => pp3[1]~reg0.CLK
+clk => pp3[2]~reg0.CLK
+clk => pp3[3]~reg0.CLK
+clk => pp3[4]~reg0.CLK
+clk => pp3[5]~reg0.CLK
+clk => pp3[6]~reg0.CLK
+clk => pp3[7]~reg0.CLK
+clk => pp3[8]~reg0.CLK
+clk => pp3[9]~reg0.CLK
+clk => pp3[10]~reg0.CLK
+clk => pp3[11]~reg0.CLK
+clk => pp3[12]~reg0.CLK
+clk => pp3[13]~reg0.CLK
+clk => pp3[14]~reg0.CLK
+clk => pp3[15]~reg0.CLK
+clk => P[0]~reg0.CLK
+clk => P[1]~reg0.CLK
+clk => P[2]~reg0.CLK
+clk => P[3]~reg0.CLK
+clk => P[4]~reg0.CLK
+clk => P[5]~reg0.CLK
+clk => P[6]~reg0.CLK
+clk => P[7]~reg0.CLK
+clk => P[8]~reg0.CLK
+clk => P[9]~reg0.CLK
+clk => P[10]~reg0.CLK
+clk => P[11]~reg0.CLK
+clk => P[12]~reg0.CLK
+clk => P[13]~reg0.CLK
+clk => P[14]~reg0.CLK
+clk => P[15]~reg0.CLK
+clk => Y_temp[0].CLK
+clk => Y_temp[1].CLK
+clk => Y_temp[2].CLK
+clk => Y_temp[3].CLK
+clk => Y_temp[4].CLK
+clk => Y_temp[5].CLK
+clk => Y_temp[6].CLK
+clk => Y_temp[7].CLK
+clk => X_temp[0].CLK
+clk => X_temp[1].CLK
+clk => X_temp[2].CLK
+clk => X_temp[3].CLK
+clk => X_temp[4].CLK
+clk => X_temp[5].CLK
+clk => X_temp[6].CLK
+clk => X_temp[7].CLK
+X[0] => X_temp[0].DATAIN
+X[1] => X_temp[1].DATAIN
+X[2] => X_temp[2].DATAIN
+X[3] => X_temp[3].DATAIN
+X[4] => X_temp[4].DATAIN
+X[5] => X_temp[5].DATAIN
+X[6] => X_temp[6].DATAIN
+X[7] => X_temp[7].DATAIN
+Y[0] => Y_temp[0].DATAIN
+Y[1] => Y_temp[1].DATAIN
+Y[2] => Y_temp[2].DATAIN
+Y[3] => Y_temp[3].DATAIN
+Y[4] => Y_temp[4].DATAIN
+Y[5] => Y_temp[5].DATAIN
+Y[6] => Y_temp[6].DATAIN
+Y[7] => Y_temp[7].DATAIN
+P[0] <= P[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+P[1] <= P[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+P[2] <= P[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+P[3] <= P[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+P[4] <= P[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+P[5] <= P[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+P[6] <= P[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+P[7] <= P[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+P[8] <= P[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+P[9] <= P[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+P[10] <= P[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+P[11] <= P[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+P[12] <= P[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+P[13] <= P[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+P[14] <= P[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+P[15] <= P[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp3[0] <= pp3[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp3[1] <= pp3[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp3[2] <= pp3[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp3[3] <= pp3[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp3[4] <= pp3[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp3[5] <= pp3[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp3[6] <= pp3[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp3[7] <= pp3[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp3[8] <= pp3[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp3[9] <= pp3[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp3[10] <= pp3[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp3[11] <= pp3[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp3[12] <= pp3[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp3[13] <= pp3[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp3[14] <= pp3[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp3[15] <= pp3[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp2[0] <= pp2[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp2[1] <= pp2[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp2[2] <= pp2[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp2[3] <= pp2[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp2[4] <= pp2[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp2[5] <= pp2[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp2[6] <= pp2[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp2[7] <= pp2[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp2[8] <= pp2[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp2[9] <= pp2[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp2[10] <= pp2[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp2[11] <= pp2[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp2[12] <= pp2[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp2[13] <= pp2[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp2[14] <= pp2[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp2[15] <= pp2[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp1[0] <= pp1[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp1[1] <= pp1[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp1[2] <= pp1[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp1[3] <= pp1[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp1[4] <= pp1[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp1[5] <= pp1[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp1[6] <= pp1[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp1[7] <= pp1[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp1[8] <= pp1[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp1[9] <= pp1[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp1[10] <= pp1[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp1[11] <= pp1[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp1[12] <= pp1[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp1[13] <= pp1[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp1[14] <= pp1[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp1[15] <= pp1[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp0[0] <= pp0[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp0[1] <= pp0[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp0[2] <= pp0[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp0[3] <= pp0[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp0[4] <= pp0[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp0[5] <= pp0[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp0[6] <= pp0[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp0[7] <= pp0[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp0[8] <= pp0[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp0[9] <= pp0[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp0[10] <= pp0[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp0[11] <= pp0[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp0[12] <= pp0[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp0[13] <= pp0[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp0[14] <= pp0[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pp0[15] <= pp0[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+decode_x[0] <= decode_x[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+decode_x[1] <= decode_x[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+decode_x[2] <= decode_x[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+decode_x[3] <= decode_x[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+decode_x[4] <= decode_x[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+decode_x[5] <= decode_x[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+decode_x[6] <= decode_x[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+decode_x[7] <= decode_x[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+decode_x[8] <= decode_x[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+g3[0] <= g3[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+g3[1] <= g3[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+g3[2] <= g3[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+g2[0] <= g2[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+g2[1] <= g2[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+g2[2] <= g2[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+g1[0] <= g1[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+g1[1] <= g1[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+g1[2] <= g1[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+g0[0] <= g0[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+g0[1] <= g0[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+g0[2] <= g0[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm
+X[0] => g0[1].IN1
+X[1] => g1[0].IN2
+X[2] => g1[1].IN1
+X[3] => g2[0].IN2
+X[4] => g2[1].IN1
+X[5] => g3[0].IN2
+X[6] => g3[1].IN1
+X[7] => g3[2].IN1
+Y[0] => Y[0].IN4
+Y[1] => Y[1].IN4
+Y[2] => Y[2].IN4
+Y[3] => Y[3].IN4
+Y[4] => Y[4].IN4
+Y[5] => Y[5].IN4
+Y[6] => Y[6].IN4
+Y[7] => Y[7].IN4
+P[0] <= action_dec:block_0.pp
+P[1] <= action_dec:block_0.pp
+P[2] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+P[3] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+P[4] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+P[5] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+P[6] <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+P[7] <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+P[8] <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+P[9] <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+P[10] <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+P[11] <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+P[12] <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+P[13] <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+P[14] <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+P[15] <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+pp3[0] <= action_dec:block_3.pp
+pp3[1] <= action_dec:block_3.pp
+pp3[2] <= action_dec:block_3.pp
+pp3[3] <= action_dec:block_3.pp
+pp3[4] <= action_dec:block_3.pp
+pp3[5] <= action_dec:block_3.pp
+pp3[6] <= action_dec:block_3.pp
+pp3[7] <= action_dec:block_3.pp
+pp3[8] <= action_dec:block_3.pp
+pp3[9] <= action_dec:block_3.pp
+pp3[10] <= action_dec:block_3.pp
+pp3[11] <= action_dec:block_3.pp
+pp3[12] <= action_dec:block_3.pp
+pp3[13] <= action_dec:block_3.pp
+pp3[14] <= action_dec:block_3.pp
+pp3[15] <= action_dec:block_3.pp
+pp2[0] <= action_dec:block_2.pp
+pp2[1] <= action_dec:block_2.pp
+pp2[2] <= action_dec:block_2.pp
+pp2[3] <= action_dec:block_2.pp
+pp2[4] <= action_dec:block_2.pp
+pp2[5] <= action_dec:block_2.pp
+pp2[6] <= action_dec:block_2.pp
+pp2[7] <= action_dec:block_2.pp
+pp2[8] <= action_dec:block_2.pp
+pp2[9] <= action_dec:block_2.pp
+pp2[10] <= action_dec:block_2.pp
+pp2[11] <= action_dec:block_2.pp
+pp2[12] <= action_dec:block_2.pp
+pp2[13] <= action_dec:block_2.pp
+pp2[14] <= action_dec:block_2.pp
+pp2[15] <= action_dec:block_2.pp
+pp1[0] <= action_dec:block_1.pp
+pp1[1] <= action_dec:block_1.pp
+pp1[2] <= action_dec:block_1.pp
+pp1[3] <= action_dec:block_1.pp
+pp1[4] <= action_dec:block_1.pp
+pp1[5] <= action_dec:block_1.pp
+pp1[6] <= action_dec:block_1.pp
+pp1[7] <= action_dec:block_1.pp
+pp1[8] <= action_dec:block_1.pp
+pp1[9] <= action_dec:block_1.pp
+pp1[10] <= action_dec:block_1.pp
+pp1[11] <= action_dec:block_1.pp
+pp1[12] <= action_dec:block_1.pp
+pp1[13] <= action_dec:block_1.pp
+pp1[14] <= action_dec:block_1.pp
+pp1[15] <= action_dec:block_1.pp
+pp0[0] <= action_dec:block_0.pp
+pp0[1] <= action_dec:block_0.pp
+pp0[2] <= action_dec:block_0.pp
+pp0[3] <= action_dec:block_0.pp
+pp0[4] <= action_dec:block_0.pp
+pp0[5] <= action_dec:block_0.pp
+pp0[6] <= action_dec:block_0.pp
+pp0[7] <= action_dec:block_0.pp
+pp0[8] <= action_dec:block_0.pp
+pp0[9] <= action_dec:block_0.pp
+pp0[10] <= action_dec:block_0.pp
+pp0[11] <= action_dec:block_0.pp
+pp0[12] <= action_dec:block_0.pp
+pp0[13] <= action_dec:block_0.pp
+pp0[14] <= action_dec:block_0.pp
+pp0[15] <= action_dec:block_0.pp
+decode_x[0] <= <GND>
+decode_x[1] <= g0[1].DB_MAX_OUTPUT_PORT_TYPE
+decode_x[2] <= g1[0].DB_MAX_OUTPUT_PORT_TYPE
+decode_x[3] <= g1[1].DB_MAX_OUTPUT_PORT_TYPE
+decode_x[4] <= g2[0].DB_MAX_OUTPUT_PORT_TYPE
+decode_x[5] <= g2[1].DB_MAX_OUTPUT_PORT_TYPE
+decode_x[6] <= g3[0].DB_MAX_OUTPUT_PORT_TYPE
+decode_x[7] <= g3[1].DB_MAX_OUTPUT_PORT_TYPE
+decode_x[8] <= g3[2].DB_MAX_OUTPUT_PORT_TYPE
+g3[0] <= g3[0].DB_MAX_OUTPUT_PORT_TYPE
+g3[1] <= g3[1].DB_MAX_OUTPUT_PORT_TYPE
+g3[2] <= g3[2].DB_MAX_OUTPUT_PORT_TYPE
+g2[0] <= g2[0].DB_MAX_OUTPUT_PORT_TYPE
+g2[1] <= g2[1].DB_MAX_OUTPUT_PORT_TYPE
+g2[2] <= g3[0].DB_MAX_OUTPUT_PORT_TYPE
+g1[0] <= g1[0].DB_MAX_OUTPUT_PORT_TYPE
+g1[1] <= g1[1].DB_MAX_OUTPUT_PORT_TYPE
+g1[2] <= g2[0].DB_MAX_OUTPUT_PORT_TYPE
+g0[0] <= g0[0].DB_MAX_OUTPUT_PORT_TYPE
+g0[1] <= g0[1].DB_MAX_OUTPUT_PORT_TYPE
+g0[2] <= g1[0].DB_MAX_OUTPUT_PORT_TYPE
+Cout <= <GND>
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0
+Y[0] => Y[0].IN2
+Y[1] => Y[1].IN2
+Y[2] => Y[2].IN2
+Y[3] => Y[3].IN2
+Y[4] => Y[4].IN2
+Y[5] => Y[5].IN2
+Y[6] => Y[6].IN2
+Y[7] => Y[7].IN2
+g[0] => Mux0.IN6
+g[0] => Mux1.IN6
+g[0] => Mux2.IN6
+g[0] => Mux3.IN6
+g[0] => Mux4.IN6
+g[0] => Mux5.IN6
+g[0] => Mux6.IN6
+g[0] => Mux7.IN6
+g[0] => Mux8.IN6
+g[0] => Mux9.IN6
+g[0] => Mux10.IN6
+g[0] => Mux11.IN6
+g[0] => Mux12.IN6
+g[0] => Mux13.IN6
+g[0] => Mux14.IN6
+g[0] => Mux15.IN6
+g[1] => Mux0.IN5
+g[1] => Mux1.IN5
+g[1] => Mux2.IN5
+g[1] => Mux3.IN5
+g[1] => Mux4.IN5
+g[1] => Mux5.IN5
+g[1] => Mux6.IN5
+g[1] => Mux7.IN5
+g[1] => Mux8.IN5
+g[1] => Mux9.IN5
+g[1] => Mux10.IN5
+g[1] => Mux11.IN5
+g[1] => Mux12.IN5
+g[1] => Mux13.IN5
+g[1] => Mux14.IN5
+g[1] => Mux15.IN5
+g[2] => Mux0.IN4
+g[2] => Mux1.IN4
+g[2] => Mux2.IN4
+g[2] => Mux3.IN4
+g[2] => Mux4.IN4
+g[2] => Mux5.IN4
+g[2] => Mux6.IN4
+g[2] => Mux7.IN4
+g[2] => Mux8.IN4
+g[2] => Mux9.IN4
+g[2] => Mux10.IN4
+g[2] => Mux11.IN4
+g[2] => Mux12.IN4
+g[2] => Mux13.IN4
+g[2] => Mux14.IN4
+g[2] => Mux15.IN4
+pp[0] <= Mux15.DB_MAX_OUTPUT_PORT_TYPE
+pp[1] <= Mux14.DB_MAX_OUTPUT_PORT_TYPE
+pp[2] <= Mux13.DB_MAX_OUTPUT_PORT_TYPE
+pp[3] <= Mux12.DB_MAX_OUTPUT_PORT_TYPE
+pp[4] <= Mux11.DB_MAX_OUTPUT_PORT_TYPE
+pp[5] <= Mux10.DB_MAX_OUTPUT_PORT_TYPE
+pp[6] <= Mux9.DB_MAX_OUTPUT_PORT_TYPE
+pp[7] <= Mux8.DB_MAX_OUTPUT_PORT_TYPE
+pp[8] <= Mux7.DB_MAX_OUTPUT_PORT_TYPE
+pp[9] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+pp[10] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+pp[11] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+pp[12] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+pp[13] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+pp[14] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+pp[15] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+pp[16] <= <GND>
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+B[0] => addr_in.IN0
+B[1] => addr_in.IN0
+B[2] => addr_in.IN0
+B[3] => addr_in.IN0
+B[4] => addr_in.IN0
+B[5] => addr_in.IN0
+B[6] => addr_in.IN0
+B[7] => addr_in.IN0
+AddSub => AddSub.IN1
+S[0] <= carry_select_adder_8bit:csa_0.S
+S[1] <= carry_select_adder_8bit:csa_0.S
+S[2] <= carry_select_adder_8bit:csa_0.S
+S[3] <= carry_select_adder_8bit:csa_0.S
+S[4] <= carry_select_adder_8bit:csa_0.S
+S[5] <= carry_select_adder_8bit:csa_0.S
+S[6] <= carry_select_adder_8bit:csa_0.S
+S[7] <= carry_select_adder_8bit:csa_0.S
+Cout <= carry_select_adder_8bit:csa_0.Cout
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN2
+A[5] => A[5].IN2
+A[6] => A[6].IN2
+A[7] => A[7].IN2
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN2
+B[5] => B[5].IN2
+B[6] => B[6].IN2
+B[7] => B[7].IN2
+Cin => Cin.IN1
+S[0] <= carry_look_ahead_adder_4bit:claa_0_LSB.S
+S[1] <= carry_look_ahead_adder_4bit:claa_0_LSB.S
+S[2] <= carry_look_ahead_adder_4bit:claa_0_LSB.S
+S[3] <= carry_look_ahead_adder_4bit:claa_0_LSB.S
+S[4] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[7] <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+Cin => Cin.IN1
+S[0] <= full_adder_approx:fa_0.port3
+S[1] <= full_adder_approx:fa_1.port3
+S[2] <= full_adder_approx:fa_2.port3
+S[3] <= full_adder_approx:fa_3.port3
+Cout <= <GND>
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_0
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_0|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_0|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_1
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_1|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_1|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_2
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_2|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_2|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_3
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_3|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_3|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+Cin => Cin.IN1
+S[0] <= full_adder_approx:fa_0.port3
+S[1] <= full_adder_approx:fa_1.port3
+S[2] <= full_adder_approx:fa_2.port3
+S[3] <= full_adder_approx:fa_3.port3
+Cout <= <GND>
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_0
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_0|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_0|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_1
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_1|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_1|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_2
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_2|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_2|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_3
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_3|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_3|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+Cin => Cin.IN1
+S[0] <= full_adder_approx:fa_0.port3
+S[1] <= full_adder_approx:fa_1.port3
+S[2] <= full_adder_approx:fa_2.port3
+S[3] <= full_adder_approx:fa_3.port3
+Cout <= <GND>
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_0
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_0|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_0|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_1
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_1|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_1|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_2
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_2|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_2|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_3
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_3|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_3|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+B[0] => addr_in.IN0
+B[1] => addr_in.IN0
+B[2] => addr_in.IN0
+B[3] => addr_in.IN0
+B[4] => addr_in.IN0
+B[5] => addr_in.IN0
+B[6] => addr_in.IN0
+B[7] => addr_in.IN0
+AddSub => AddSub.IN1
+S[0] <= carry_select_adder_8bit:csa_0.S
+S[1] <= carry_select_adder_8bit:csa_0.S
+S[2] <= carry_select_adder_8bit:csa_0.S
+S[3] <= carry_select_adder_8bit:csa_0.S
+S[4] <= carry_select_adder_8bit:csa_0.S
+S[5] <= carry_select_adder_8bit:csa_0.S
+S[6] <= carry_select_adder_8bit:csa_0.S
+S[7] <= carry_select_adder_8bit:csa_0.S
+Cout <= carry_select_adder_8bit:csa_0.Cout
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN2
+A[5] => A[5].IN2
+A[6] => A[6].IN2
+A[7] => A[7].IN2
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN2
+B[5] => B[5].IN2
+B[6] => B[6].IN2
+B[7] => B[7].IN2
+Cin => Cin.IN1
+S[0] <= carry_look_ahead_adder_4bit:claa_0_LSB.S
+S[1] <= carry_look_ahead_adder_4bit:claa_0_LSB.S
+S[2] <= carry_look_ahead_adder_4bit:claa_0_LSB.S
+S[3] <= carry_look_ahead_adder_4bit:claa_0_LSB.S
+S[4] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[7] <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+Cin => Cin.IN1
+S[0] <= full_adder_approx:fa_0.port3
+S[1] <= full_adder_approx:fa_1.port3
+S[2] <= full_adder_approx:fa_2.port3
+S[3] <= full_adder_approx:fa_3.port3
+Cout <= <GND>
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_0
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_0|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_0|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_1
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_1|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_1|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_2
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_2|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_2|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_3
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_3|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_3|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+Cin => Cin.IN1
+S[0] <= full_adder_approx:fa_0.port3
+S[1] <= full_adder_approx:fa_1.port3
+S[2] <= full_adder_approx:fa_2.port3
+S[3] <= full_adder_approx:fa_3.port3
+Cout <= <GND>
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_0
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_0|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_0|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_1
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_1|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_1|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_2
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_2|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_2|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_3
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_3|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_3|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+Cin => Cin.IN1
+S[0] <= full_adder_approx:fa_0.port3
+S[1] <= full_adder_approx:fa_1.port3
+S[2] <= full_adder_approx:fa_2.port3
+S[3] <= full_adder_approx:fa_3.port3
+Cout <= <GND>
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_0
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_0|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_0|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_1
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_1|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_1|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_2
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_2|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_2|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_3
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_3|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_0|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_3|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1
+Y[0] => Y[0].IN2
+Y[1] => Y[1].IN2
+Y[2] => Y[2].IN2
+Y[3] => Y[3].IN2
+Y[4] => Y[4].IN2
+Y[5] => Y[5].IN2
+Y[6] => Y[6].IN2
+Y[7] => Y[7].IN2
+g[0] => Mux0.IN6
+g[0] => Mux1.IN6
+g[0] => Mux2.IN6
+g[0] => Mux3.IN6
+g[0] => Mux4.IN6
+g[0] => Mux5.IN6
+g[0] => Mux6.IN6
+g[0] => Mux7.IN6
+g[0] => Mux8.IN6
+g[0] => Mux9.IN6
+g[0] => Mux10.IN6
+g[0] => Mux11.IN6
+g[0] => Mux12.IN6
+g[0] => Mux13.IN6
+g[0] => Mux14.IN6
+g[0] => Mux15.IN6
+g[1] => Mux0.IN5
+g[1] => Mux1.IN5
+g[1] => Mux2.IN5
+g[1] => Mux3.IN5
+g[1] => Mux4.IN5
+g[1] => Mux5.IN5
+g[1] => Mux6.IN5
+g[1] => Mux7.IN5
+g[1] => Mux8.IN5
+g[1] => Mux9.IN5
+g[1] => Mux10.IN5
+g[1] => Mux11.IN5
+g[1] => Mux12.IN5
+g[1] => Mux13.IN5
+g[1] => Mux14.IN5
+g[1] => Mux15.IN5
+g[2] => Mux0.IN4
+g[2] => Mux1.IN4
+g[2] => Mux2.IN4
+g[2] => Mux3.IN4
+g[2] => Mux4.IN4
+g[2] => Mux5.IN4
+g[2] => Mux6.IN4
+g[2] => Mux7.IN4
+g[2] => Mux8.IN4
+g[2] => Mux9.IN4
+g[2] => Mux10.IN4
+g[2] => Mux11.IN4
+g[2] => Mux12.IN4
+g[2] => Mux13.IN4
+g[2] => Mux14.IN4
+g[2] => Mux15.IN4
+pp[0] <= Mux15.DB_MAX_OUTPUT_PORT_TYPE
+pp[1] <= Mux14.DB_MAX_OUTPUT_PORT_TYPE
+pp[2] <= Mux13.DB_MAX_OUTPUT_PORT_TYPE
+pp[3] <= Mux12.DB_MAX_OUTPUT_PORT_TYPE
+pp[4] <= Mux11.DB_MAX_OUTPUT_PORT_TYPE
+pp[5] <= Mux10.DB_MAX_OUTPUT_PORT_TYPE
+pp[6] <= Mux9.DB_MAX_OUTPUT_PORT_TYPE
+pp[7] <= Mux8.DB_MAX_OUTPUT_PORT_TYPE
+pp[8] <= Mux7.DB_MAX_OUTPUT_PORT_TYPE
+pp[9] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+pp[10] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+pp[11] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+pp[12] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+pp[13] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+pp[14] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+pp[15] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+pp[16] <= <GND>
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+B[0] => addr_in.IN0
+B[1] => addr_in.IN0
+B[2] => addr_in.IN0
+B[3] => addr_in.IN0
+B[4] => addr_in.IN0
+B[5] => addr_in.IN0
+B[6] => addr_in.IN0
+B[7] => addr_in.IN0
+AddSub => AddSub.IN1
+S[0] <= carry_select_adder_8bit:csa_0.S
+S[1] <= carry_select_adder_8bit:csa_0.S
+S[2] <= carry_select_adder_8bit:csa_0.S
+S[3] <= carry_select_adder_8bit:csa_0.S
+S[4] <= carry_select_adder_8bit:csa_0.S
+S[5] <= carry_select_adder_8bit:csa_0.S
+S[6] <= carry_select_adder_8bit:csa_0.S
+S[7] <= carry_select_adder_8bit:csa_0.S
+Cout <= carry_select_adder_8bit:csa_0.Cout
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN2
+A[5] => A[5].IN2
+A[6] => A[6].IN2
+A[7] => A[7].IN2
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN2
+B[5] => B[5].IN2
+B[6] => B[6].IN2
+B[7] => B[7].IN2
+Cin => Cin.IN1
+S[0] <= carry_look_ahead_adder_4bit:claa_0_LSB.S
+S[1] <= carry_look_ahead_adder_4bit:claa_0_LSB.S
+S[2] <= carry_look_ahead_adder_4bit:claa_0_LSB.S
+S[3] <= carry_look_ahead_adder_4bit:claa_0_LSB.S
+S[4] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[7] <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+Cin => Cin.IN1
+S[0] <= full_adder_approx:fa_0.port3
+S[1] <= full_adder_approx:fa_1.port3
+S[2] <= full_adder_approx:fa_2.port3
+S[3] <= full_adder_approx:fa_3.port3
+Cout <= <GND>
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_0
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_0|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_0|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_1
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_1|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_1|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_2
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_2|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_2|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_3
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_3|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_3|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+Cin => Cin.IN1
+S[0] <= full_adder_approx:fa_0.port3
+S[1] <= full_adder_approx:fa_1.port3
+S[2] <= full_adder_approx:fa_2.port3
+S[3] <= full_adder_approx:fa_3.port3
+Cout <= <GND>
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_0
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_0|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_0|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_1
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_1|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_1|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_2
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_2|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_2|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_3
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_3|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_3|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+Cin => Cin.IN1
+S[0] <= full_adder_approx:fa_0.port3
+S[1] <= full_adder_approx:fa_1.port3
+S[2] <= full_adder_approx:fa_2.port3
+S[3] <= full_adder_approx:fa_3.port3
+Cout <= <GND>
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_0
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_0|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_0|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_1
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_1|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_1|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_2
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_2|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_2|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_3
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_3|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_3|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+B[0] => addr_in.IN0
+B[1] => addr_in.IN0
+B[2] => addr_in.IN0
+B[3] => addr_in.IN0
+B[4] => addr_in.IN0
+B[5] => addr_in.IN0
+B[6] => addr_in.IN0
+B[7] => addr_in.IN0
+AddSub => AddSub.IN1
+S[0] <= carry_select_adder_8bit:csa_0.S
+S[1] <= carry_select_adder_8bit:csa_0.S
+S[2] <= carry_select_adder_8bit:csa_0.S
+S[3] <= carry_select_adder_8bit:csa_0.S
+S[4] <= carry_select_adder_8bit:csa_0.S
+S[5] <= carry_select_adder_8bit:csa_0.S
+S[6] <= carry_select_adder_8bit:csa_0.S
+S[7] <= carry_select_adder_8bit:csa_0.S
+Cout <= carry_select_adder_8bit:csa_0.Cout
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN2
+A[5] => A[5].IN2
+A[6] => A[6].IN2
+A[7] => A[7].IN2
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN2
+B[5] => B[5].IN2
+B[6] => B[6].IN2
+B[7] => B[7].IN2
+Cin => Cin.IN1
+S[0] <= carry_look_ahead_adder_4bit:claa_0_LSB.S
+S[1] <= carry_look_ahead_adder_4bit:claa_0_LSB.S
+S[2] <= carry_look_ahead_adder_4bit:claa_0_LSB.S
+S[3] <= carry_look_ahead_adder_4bit:claa_0_LSB.S
+S[4] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[7] <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+Cin => Cin.IN1
+S[0] <= full_adder_approx:fa_0.port3
+S[1] <= full_adder_approx:fa_1.port3
+S[2] <= full_adder_approx:fa_2.port3
+S[3] <= full_adder_approx:fa_3.port3
+Cout <= <GND>
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_0
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_0|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_0|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_1
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_1|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_1|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_2
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_2|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_2|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_3
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_3|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_3|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+Cin => Cin.IN1
+S[0] <= full_adder_approx:fa_0.port3
+S[1] <= full_adder_approx:fa_1.port3
+S[2] <= full_adder_approx:fa_2.port3
+S[3] <= full_adder_approx:fa_3.port3
+Cout <= <GND>
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_0
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_0|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_0|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_1
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_1|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_1|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_2
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_2|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_2|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_3
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_3|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_3|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+Cin => Cin.IN1
+S[0] <= full_adder_approx:fa_0.port3
+S[1] <= full_adder_approx:fa_1.port3
+S[2] <= full_adder_approx:fa_2.port3
+S[3] <= full_adder_approx:fa_3.port3
+Cout <= <GND>
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_0
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_0|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_0|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_1
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_1|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_1|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_2
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_2|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_2|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_3
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_3|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_1|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_3|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2
+Y[0] => Y[0].IN2
+Y[1] => Y[1].IN2
+Y[2] => Y[2].IN2
+Y[3] => Y[3].IN2
+Y[4] => Y[4].IN2
+Y[5] => Y[5].IN2
+Y[6] => Y[6].IN2
+Y[7] => Y[7].IN2
+g[0] => Mux0.IN6
+g[0] => Mux1.IN6
+g[0] => Mux2.IN6
+g[0] => Mux3.IN6
+g[0] => Mux4.IN6
+g[0] => Mux5.IN6
+g[0] => Mux6.IN6
+g[0] => Mux7.IN6
+g[0] => Mux8.IN6
+g[0] => Mux9.IN6
+g[0] => Mux10.IN6
+g[0] => Mux11.IN6
+g[0] => Mux12.IN6
+g[0] => Mux13.IN6
+g[0] => Mux14.IN6
+g[0] => Mux15.IN6
+g[1] => Mux0.IN5
+g[1] => Mux1.IN5
+g[1] => Mux2.IN5
+g[1] => Mux3.IN5
+g[1] => Mux4.IN5
+g[1] => Mux5.IN5
+g[1] => Mux6.IN5
+g[1] => Mux7.IN5
+g[1] => Mux8.IN5
+g[1] => Mux9.IN5
+g[1] => Mux10.IN5
+g[1] => Mux11.IN5
+g[1] => Mux12.IN5
+g[1] => Mux13.IN5
+g[1] => Mux14.IN5
+g[1] => Mux15.IN5
+g[2] => Mux0.IN4
+g[2] => Mux1.IN4
+g[2] => Mux2.IN4
+g[2] => Mux3.IN4
+g[2] => Mux4.IN4
+g[2] => Mux5.IN4
+g[2] => Mux6.IN4
+g[2] => Mux7.IN4
+g[2] => Mux8.IN4
+g[2] => Mux9.IN4
+g[2] => Mux10.IN4
+g[2] => Mux11.IN4
+g[2] => Mux12.IN4
+g[2] => Mux13.IN4
+g[2] => Mux14.IN4
+g[2] => Mux15.IN4
+pp[0] <= Mux15.DB_MAX_OUTPUT_PORT_TYPE
+pp[1] <= Mux14.DB_MAX_OUTPUT_PORT_TYPE
+pp[2] <= Mux13.DB_MAX_OUTPUT_PORT_TYPE
+pp[3] <= Mux12.DB_MAX_OUTPUT_PORT_TYPE
+pp[4] <= Mux11.DB_MAX_OUTPUT_PORT_TYPE
+pp[5] <= Mux10.DB_MAX_OUTPUT_PORT_TYPE
+pp[6] <= Mux9.DB_MAX_OUTPUT_PORT_TYPE
+pp[7] <= Mux8.DB_MAX_OUTPUT_PORT_TYPE
+pp[8] <= Mux7.DB_MAX_OUTPUT_PORT_TYPE
+pp[9] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+pp[10] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+pp[11] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+pp[12] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+pp[13] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+pp[14] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+pp[15] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+pp[16] <= <GND>
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+B[0] => addr_in.IN0
+B[1] => addr_in.IN0
+B[2] => addr_in.IN0
+B[3] => addr_in.IN0
+B[4] => addr_in.IN0
+B[5] => addr_in.IN0
+B[6] => addr_in.IN0
+B[7] => addr_in.IN0
+AddSub => AddSub.IN1
+S[0] <= carry_select_adder_8bit:csa_0.S
+S[1] <= carry_select_adder_8bit:csa_0.S
+S[2] <= carry_select_adder_8bit:csa_0.S
+S[3] <= carry_select_adder_8bit:csa_0.S
+S[4] <= carry_select_adder_8bit:csa_0.S
+S[5] <= carry_select_adder_8bit:csa_0.S
+S[6] <= carry_select_adder_8bit:csa_0.S
+S[7] <= carry_select_adder_8bit:csa_0.S
+Cout <= carry_select_adder_8bit:csa_0.Cout
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN2
+A[5] => A[5].IN2
+A[6] => A[6].IN2
+A[7] => A[7].IN2
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN2
+B[5] => B[5].IN2
+B[6] => B[6].IN2
+B[7] => B[7].IN2
+Cin => Cin.IN1
+S[0] <= carry_look_ahead_adder_4bit:claa_0_LSB.S
+S[1] <= carry_look_ahead_adder_4bit:claa_0_LSB.S
+S[2] <= carry_look_ahead_adder_4bit:claa_0_LSB.S
+S[3] <= carry_look_ahead_adder_4bit:claa_0_LSB.S
+S[4] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[7] <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+Cin => Cin.IN1
+S[0] <= full_adder_approx:fa_0.port3
+S[1] <= full_adder_approx:fa_1.port3
+S[2] <= full_adder_approx:fa_2.port3
+S[3] <= full_adder_approx:fa_3.port3
+Cout <= <GND>
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_0
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_0|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_0|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_1
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_1|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_1|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_2
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_2|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_2|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_3
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_3|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_3|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+Cin => Cin.IN1
+S[0] <= full_adder_approx:fa_0.port3
+S[1] <= full_adder_approx:fa_1.port3
+S[2] <= full_adder_approx:fa_2.port3
+S[3] <= full_adder_approx:fa_3.port3
+Cout <= <GND>
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_0
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_0|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_0|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_1
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_1|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_1|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_2
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_2|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_2|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_3
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_3|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_3|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+Cin => Cin.IN1
+S[0] <= full_adder_approx:fa_0.port3
+S[1] <= full_adder_approx:fa_1.port3
+S[2] <= full_adder_approx:fa_2.port3
+S[3] <= full_adder_approx:fa_3.port3
+Cout <= <GND>
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_0
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_0|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_0|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_1
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_1|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_1|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_2
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_2|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_2|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_3
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_3|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_3|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+B[0] => addr_in.IN0
+B[1] => addr_in.IN0
+B[2] => addr_in.IN0
+B[3] => addr_in.IN0
+B[4] => addr_in.IN0
+B[5] => addr_in.IN0
+B[6] => addr_in.IN0
+B[7] => addr_in.IN0
+AddSub => AddSub.IN1
+S[0] <= carry_select_adder_8bit:csa_0.S
+S[1] <= carry_select_adder_8bit:csa_0.S
+S[2] <= carry_select_adder_8bit:csa_0.S
+S[3] <= carry_select_adder_8bit:csa_0.S
+S[4] <= carry_select_adder_8bit:csa_0.S
+S[5] <= carry_select_adder_8bit:csa_0.S
+S[6] <= carry_select_adder_8bit:csa_0.S
+S[7] <= carry_select_adder_8bit:csa_0.S
+Cout <= carry_select_adder_8bit:csa_0.Cout
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN2
+A[5] => A[5].IN2
+A[6] => A[6].IN2
+A[7] => A[7].IN2
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN2
+B[5] => B[5].IN2
+B[6] => B[6].IN2
+B[7] => B[7].IN2
+Cin => Cin.IN1
+S[0] <= carry_look_ahead_adder_4bit:claa_0_LSB.S
+S[1] <= carry_look_ahead_adder_4bit:claa_0_LSB.S
+S[2] <= carry_look_ahead_adder_4bit:claa_0_LSB.S
+S[3] <= carry_look_ahead_adder_4bit:claa_0_LSB.S
+S[4] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[7] <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+Cin => Cin.IN1
+S[0] <= full_adder_approx:fa_0.port3
+S[1] <= full_adder_approx:fa_1.port3
+S[2] <= full_adder_approx:fa_2.port3
+S[3] <= full_adder_approx:fa_3.port3
+Cout <= <GND>
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_0
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_0|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_0|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_1
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_1|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_1|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_2
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_2|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_2|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_3
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_3|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_3|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+Cin => Cin.IN1
+S[0] <= full_adder_approx:fa_0.port3
+S[1] <= full_adder_approx:fa_1.port3
+S[2] <= full_adder_approx:fa_2.port3
+S[3] <= full_adder_approx:fa_3.port3
+Cout <= <GND>
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_0
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_0|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_0|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_1
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_1|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_1|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_2
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_2|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_2|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_3
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_3|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_3|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+Cin => Cin.IN1
+S[0] <= full_adder_approx:fa_0.port3
+S[1] <= full_adder_approx:fa_1.port3
+S[2] <= full_adder_approx:fa_2.port3
+S[3] <= full_adder_approx:fa_3.port3
+Cout <= <GND>
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_0
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_0|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_0|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_1
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_1|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_1|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_2
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_2|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_2|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_3
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_3|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_2|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_3|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3
+Y[0] => Y[0].IN2
+Y[1] => Y[1].IN2
+Y[2] => Y[2].IN2
+Y[3] => Y[3].IN2
+Y[4] => Y[4].IN2
+Y[5] => Y[5].IN2
+Y[6] => Y[6].IN2
+Y[7] => Y[7].IN2
+g[0] => Mux0.IN6
+g[0] => Mux1.IN6
+g[0] => Mux2.IN6
+g[0] => Mux3.IN6
+g[0] => Mux4.IN6
+g[0] => Mux5.IN6
+g[0] => Mux6.IN6
+g[0] => Mux7.IN6
+g[0] => Mux8.IN6
+g[0] => Mux9.IN6
+g[0] => Mux10.IN6
+g[0] => Mux11.IN6
+g[0] => Mux12.IN6
+g[0] => Mux13.IN6
+g[0] => Mux14.IN6
+g[0] => Mux15.IN6
+g[1] => Mux0.IN5
+g[1] => Mux1.IN5
+g[1] => Mux2.IN5
+g[1] => Mux3.IN5
+g[1] => Mux4.IN5
+g[1] => Mux5.IN5
+g[1] => Mux6.IN5
+g[1] => Mux7.IN5
+g[1] => Mux8.IN5
+g[1] => Mux9.IN5
+g[1] => Mux10.IN5
+g[1] => Mux11.IN5
+g[1] => Mux12.IN5
+g[1] => Mux13.IN5
+g[1] => Mux14.IN5
+g[1] => Mux15.IN5
+g[2] => Mux0.IN4
+g[2] => Mux1.IN4
+g[2] => Mux2.IN4
+g[2] => Mux3.IN4
+g[2] => Mux4.IN4
+g[2] => Mux5.IN4
+g[2] => Mux6.IN4
+g[2] => Mux7.IN4
+g[2] => Mux8.IN4
+g[2] => Mux9.IN4
+g[2] => Mux10.IN4
+g[2] => Mux11.IN4
+g[2] => Mux12.IN4
+g[2] => Mux13.IN4
+g[2] => Mux14.IN4
+g[2] => Mux15.IN4
+pp[0] <= Mux15.DB_MAX_OUTPUT_PORT_TYPE
+pp[1] <= Mux14.DB_MAX_OUTPUT_PORT_TYPE
+pp[2] <= Mux13.DB_MAX_OUTPUT_PORT_TYPE
+pp[3] <= Mux12.DB_MAX_OUTPUT_PORT_TYPE
+pp[4] <= Mux11.DB_MAX_OUTPUT_PORT_TYPE
+pp[5] <= Mux10.DB_MAX_OUTPUT_PORT_TYPE
+pp[6] <= Mux9.DB_MAX_OUTPUT_PORT_TYPE
+pp[7] <= Mux8.DB_MAX_OUTPUT_PORT_TYPE
+pp[8] <= Mux7.DB_MAX_OUTPUT_PORT_TYPE
+pp[9] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+pp[10] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+pp[11] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+pp[12] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+pp[13] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+pp[14] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+pp[15] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+pp[16] <= <GND>
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+B[0] => addr_in.IN0
+B[1] => addr_in.IN0
+B[2] => addr_in.IN0
+B[3] => addr_in.IN0
+B[4] => addr_in.IN0
+B[5] => addr_in.IN0
+B[6] => addr_in.IN0
+B[7] => addr_in.IN0
+AddSub => AddSub.IN1
+S[0] <= carry_select_adder_8bit:csa_0.S
+S[1] <= carry_select_adder_8bit:csa_0.S
+S[2] <= carry_select_adder_8bit:csa_0.S
+S[3] <= carry_select_adder_8bit:csa_0.S
+S[4] <= carry_select_adder_8bit:csa_0.S
+S[5] <= carry_select_adder_8bit:csa_0.S
+S[6] <= carry_select_adder_8bit:csa_0.S
+S[7] <= carry_select_adder_8bit:csa_0.S
+Cout <= carry_select_adder_8bit:csa_0.Cout
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN2
+A[5] => A[5].IN2
+A[6] => A[6].IN2
+A[7] => A[7].IN2
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN2
+B[5] => B[5].IN2
+B[6] => B[6].IN2
+B[7] => B[7].IN2
+Cin => Cin.IN1
+S[0] <= carry_look_ahead_adder_4bit:claa_0_LSB.S
+S[1] <= carry_look_ahead_adder_4bit:claa_0_LSB.S
+S[2] <= carry_look_ahead_adder_4bit:claa_0_LSB.S
+S[3] <= carry_look_ahead_adder_4bit:claa_0_LSB.S
+S[4] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[7] <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+Cin => Cin.IN1
+S[0] <= full_adder_approx:fa_0.port3
+S[1] <= full_adder_approx:fa_1.port3
+S[2] <= full_adder_approx:fa_2.port3
+S[3] <= full_adder_approx:fa_3.port3
+Cout <= <GND>
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_0
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_0|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_0|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_1
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_1|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_1|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_2
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_2|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_2|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_3
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_3|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_3|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+Cin => Cin.IN1
+S[0] <= full_adder_approx:fa_0.port3
+S[1] <= full_adder_approx:fa_1.port3
+S[2] <= full_adder_approx:fa_2.port3
+S[3] <= full_adder_approx:fa_3.port3
+Cout <= <GND>
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_0
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_0|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_0|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_1
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_1|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_1|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_2
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_2|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_2|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_3
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_3|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_3|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+Cin => Cin.IN1
+S[0] <= full_adder_approx:fa_0.port3
+S[1] <= full_adder_approx:fa_1.port3
+S[2] <= full_adder_approx:fa_2.port3
+S[3] <= full_adder_approx:fa_3.port3
+Cout <= <GND>
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_0
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_0|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_0|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_1
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_1|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_1|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_2
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_2|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_2|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_3
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_3|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_1|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_3|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+B[0] => addr_in.IN0
+B[1] => addr_in.IN0
+B[2] => addr_in.IN0
+B[3] => addr_in.IN0
+B[4] => addr_in.IN0
+B[5] => addr_in.IN0
+B[6] => addr_in.IN0
+B[7] => addr_in.IN0
+AddSub => AddSub.IN1
+S[0] <= carry_select_adder_8bit:csa_0.S
+S[1] <= carry_select_adder_8bit:csa_0.S
+S[2] <= carry_select_adder_8bit:csa_0.S
+S[3] <= carry_select_adder_8bit:csa_0.S
+S[4] <= carry_select_adder_8bit:csa_0.S
+S[5] <= carry_select_adder_8bit:csa_0.S
+S[6] <= carry_select_adder_8bit:csa_0.S
+S[7] <= carry_select_adder_8bit:csa_0.S
+Cout <= carry_select_adder_8bit:csa_0.Cout
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN2
+A[5] => A[5].IN2
+A[6] => A[6].IN2
+A[7] => A[7].IN2
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN2
+B[5] => B[5].IN2
+B[6] => B[6].IN2
+B[7] => B[7].IN2
+Cin => Cin.IN1
+S[0] <= carry_look_ahead_adder_4bit:claa_0_LSB.S
+S[1] <= carry_look_ahead_adder_4bit:claa_0_LSB.S
+S[2] <= carry_look_ahead_adder_4bit:claa_0_LSB.S
+S[3] <= carry_look_ahead_adder_4bit:claa_0_LSB.S
+S[4] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[7] <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+Cin => Cin.IN1
+S[0] <= full_adder_approx:fa_0.port3
+S[1] <= full_adder_approx:fa_1.port3
+S[2] <= full_adder_approx:fa_2.port3
+S[3] <= full_adder_approx:fa_3.port3
+Cout <= <GND>
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_0
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_0|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_0|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_1
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_1|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_1|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_2
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_2|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_2|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_3
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_3|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_0_LSB|full_adder_approx:fa_3|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+Cin => Cin.IN1
+S[0] <= full_adder_approx:fa_0.port3
+S[1] <= full_adder_approx:fa_1.port3
+S[2] <= full_adder_approx:fa_2.port3
+S[3] <= full_adder_approx:fa_3.port3
+Cout <= <GND>
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_0
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_0|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_0|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_1
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_1|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_1|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_2
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_2|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_2|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_3
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_3|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_1_MSB_Low|full_adder_approx:fa_3|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+Cin => Cin.IN1
+S[0] <= full_adder_approx:fa_0.port3
+S[1] <= full_adder_approx:fa_1.port3
+S[2] <= full_adder_approx:fa_2.port3
+S[3] <= full_adder_approx:fa_3.port3
+Cout <= <GND>
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_0
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_0|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_0|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_1
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_1|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_1|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_2
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_2|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_2|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_3
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+S <= half_adder_approx:ha2.port3
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_3|half_adder_approx:ha1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dut|booth_multiplier_8bit:bm|action_dec:block_3|carry_select_adder_sub_8bit:adder_2|carry_select_adder_8bit:csa_0|carry_look_ahead_adder_4bit:claa_2_MSB_High|full_adder_approx:fa_3|half_adder_approx:ha2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
